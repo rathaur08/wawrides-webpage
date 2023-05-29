@@ -1,0 +1,21 @@
+
+
+/*  WelcomeWawrides Page 6 CSS */
+
+.welcomewawride-section1 {
+    width: auto;
+    background: rgb(179, 127, 31);
+    height: 40vw;
+  }
+
+
+  /* WawrideCardPage Page 7 */
+  .ownershipcard-section1 {
+    width: auto;
+    background: rgb(179, 127, 31);
+    height: 15vw;
+  }
+
+  .ownershipcard-section2 {
+    margin: auto 50px;
+  }

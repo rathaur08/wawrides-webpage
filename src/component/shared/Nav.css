@@ -1,0 +1,135 @@
+/* body{
+    background: rgb(228, 230, 225);
+} */
+
+/* NavBar CSS */
+.nav-linkbar {
+    padding: 0.5rem 2rem;
+    color: rgb(221, 149, 15);
+    font-weight: 500;
+}
+
+.nav-linkbar:hover {
+    color: orange;
+}
+
+.nav-linkbar:active {
+    color: white;
+}
+
+.nav-linkbar:focus {
+    color: white;
+}
+
+/* Section-1 */
+.container-section1 {
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1616455436127-553454f32623?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzJTIwY2FyJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80) center fixed no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    min-height: 70vh;
+    color: white;
+}
+
+.section2-card {
+    margin-top: -50px;
+}
+
+.section2-cards {
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+.section2-img {
+    height: 90px;
+}
+
+.section3-card-main {
+    width: 18rem;
+    align-items: center;
+    border-bottom: 3px solid orange;
+    border-top: 3px solid orange;
+}
+
+.section3-img {
+    height: 90px;
+    width: 70px;
+
+}
+
+.container-section4 {
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1616455436127-553454f32623?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzJTIwY2FyJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: 100%;
+    /* position: relativ; */
+    min-height: 40vh;
+    color: white;
+}
+
+.btn-more {
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 19px;
+    color: white;
+}
+
+.section5-cards {
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+.card-titles {
+    color: rgb(12, 12, 153);
+}
+
+.container-section6 {
+    width: 100%;
+    background: url(https://media.istockphoto.com/id/1339076397/photo/blue-background-watercolor.jpg?b=1&s=612x612&w=0&k=20&c=MwFrqxYGlQ9ev7WqjLkJaH9f8WTX4hgLZtf-X6i8v_A=);
+    background-size: 100%;
+    /* position: relativ; */
+    min-height: 40vh;
+    color: white;
+}
+
+.card-section6 {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+.section7-card {
+    width: 500px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section8-img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.container-section9 {
+    background: orange;
+    padding: 15px 20px;
+
+}
+
+.btn-form {
+    border-left: 3px solid orange;
+}
+
+.input-group {
+    border: 1px solid rgb(12, 12, 65);
+    border-radius: 5px;
+}
+
+  /* Footer CSS */
+  .footer{
+    background: rgb(9, 34, 119);
+    color: white;
+}
