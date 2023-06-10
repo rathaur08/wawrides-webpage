@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
 
       <div class="footer-section">
-        <div class="row m-0 mb-3">
+        <div class="row container-section9 m-0">
           <div class="col-md-4">
             <h4>Subscribe to our Newsletter</h4>
           </div>

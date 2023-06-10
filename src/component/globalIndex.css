@@ -1,4 +1,37 @@
+/* HOME PAGE */
+.text-org{
+  color: orange;
+  font-weight: 600;
+}
+.text-blk{
+  color: black;
+  font-weight: 600;
+}
+.input-color{
+  border: 1px solid orange;
+  border-radius: 20px;
+}
+.btn-color{
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 20px;
+  padding: 8px 25px;
+  color: black;
+  font-weight: 600;
+}
 
+.hr-line-org{
+  color: orange;
+  height: 2px;
+}
+
+.icocs{
+  margin: 5px;
+  /* background: #28b9b9; */
+  border-radius: 50px;
+  padding: 15px 18px;
+  border: 2px solid;
+}
 
 /*  WelcomeWawrides Page 6 CSS */
 
@@ -18,4 +51,21 @@
 
   .ownershipcard-section2 {
     margin: auto 50px;
+  }
+
+
+  /* WawrideDetail Page 8,9 CSS */
+  .section-head{
+    background: orange;
+    height: 13rem;
+    border-radius: 20px;
+  }
+
+  .profile-section-card{
+    max-width: 20rem;
+    margin: 20px auto;
+    align-items: center;
+  }
+  .activit-section{
+    border-bottom: 1px solid green;
   }

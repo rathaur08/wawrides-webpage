@@ -3,10 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from './component/shared/Nav';
 import Footer from './component/shared/Footer';
 // import Home from './component/Home';
-// import HelpCenter from './component/HelpCenter';
+import HelpCenter from './component/HelpCenter';
 // import WelcomeWawride from './component/WelcomeWawride';
 // import WawrideCardPage from './component/WawrideCardPage';
-import WawrideCardDetail from './component/WawrideCardDetail';
+// import WawrideCardDetail from './component/WawrideCardDetail';
+// import WawrideDetail from './component/WawrideDetail';
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <BrowserRouter>
         <Nav />
         {/* Page 2 */}
-        {/* <HelpCenter/> */}
+        <HelpCenter/>
 
         {/* WelcomeWawrides Page 6 */}
         {/* <WelcomeWawride/> */}
@@ -23,9 +24,10 @@ const App = () => {
         {/* <WawrideCardPage /> */}
 
         {/* Wawride Card Detail Page 8 */}
-        <WawrideCardDetail />
+        {/* <WawrideCardDetail /> */}
 
         {/* Wawride Card Detail Page 9 */}
+        {/* <WawrideDetail/> */}
 
         {/* Wawride Card Detail Page 10 */}
 
