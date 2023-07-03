@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from './component/shared/Nav';
 import Footer from './component/shared/Footer';
 // import Home from './component/Home';
-import HelpCenter from './component/HelpCenter';
+// import HelpCenter from './component/HelpCenter';
 // import WelcomeWawride from './component/WelcomeWawride';
-// import WawrideCardPage from './component/WawrideCardPage';
+import WawrideCardPage from './component/WawrideCardPage';
 // import WawrideCardDetail from './component/WawrideCardDetail';
 // import WawrideDetail from './component/WawrideDetail';
 
@@ -15,13 +15,13 @@ const App = () => {
       <BrowserRouter>
         <Nav />
         {/* Page 2 */}
-        <HelpCenter/>
+        {/* <HelpCenter/> */}
 
         {/* WelcomeWawrides Page 6 */}
         {/* <WelcomeWawride/> */}
 
         {/* WawrideCardPage Page 7 */}
-        {/* <WawrideCardPage /> */}
+        <WawrideCardPage />
 
         {/* Wawride Card Detail Page 8 */}
         {/* <WawrideCardDetail /> */}
