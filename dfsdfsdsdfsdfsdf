@@ -1,0 +1,66 @@
+[33mcommit a36d81a311462e3a49cdd03e72f8db1a2178f422[m
+Author: Sunny <sunnyrathaur2444@gmail.com>
+Date:   Mon Jul 3 22:02:31 2023 +0530
+
+    UI Update
+
+ src/App.js                      |  8 [32m++++[m[31m----[m
+ src/component/HelpCenter2.js    |  9 [32m+++++++++[m
+ src/component/WelcomeWawride.js | 37 [32m++++++++++++++++++++[m[31m-----------------[m
+ src/component/globalIndex.css   |  5 [32m+++++[m
+ 4 files changed, 38 insertions(+), 21 deletions(-)
+
+[33mcommit 7dd19f20d3e5a780f1ac8652a3098bf1695e1bb1[m
+Author: Sunny <sunnyrathaur2444@gmail.com>
+Date:   Sat Jun 10 23:20:46 2023 +0530
+
+    UI Update Home & HelpCenter Page
+
+ public/index.html                  |   1 [32m+[m
+ src/App.js                         |  10 [32m+[m[31m-[m
+ src/component/HelpCenter.js        | 517 [32m++++++++++++++++[m[31m---------------[m
+ src/component/Home.js              | 609 [32m++++++++++++++++++[m[31m-------------------[m
+ src/component/WawrideCardDetail.js | 314 [32m+++++++++[m[31m----------[m
+ src/component/WawrideCardPage.js   | 110 [32m+++[m[31m----[m
+ src/component/WawrideDetail.js     | 372 [32m++++++++++++++++++++++[m
+ src/component/WelcomeWawride.js    | 236 [32m+++++++[m[31m-------[m
+ src/component/globalIndex.css      |  50 [32m+++[m
+ src/component/shared/Footer.js     |   2 [32m+[m[31m-[m
+ src/component/shared/Nav.js        |   4 [32m+[m[31m-[m
+ 11 files changed, 1318 insertions(+), 907 deletions(-)
+
+[33mcommit 159525be3a31328a3906ee7de8e7813c08429964[m
+Author: Sunny <sunnyrathaur2444@gmail.com>
+Date:   Mon May 29 23:08:00 2023 +0530
+
+    first commit
+
+ .gitignore                         |    23 [32m+[m
+ README.md                          |    70 [32m+[m
+ package-lock.json                  | 29666 [32m+++++++++++++++++++++++++++++++++++[m
+ package.json                       |    39 [32m+[m
+ public/favicon.ico                 |   Bin [31m0[m -> [32m3870[m bytes
+ public/index.html                  |    28 [32m+[m
+ public/logo192.png                 |   Bin [31m0[m -> [32m5347[m bytes
+ public/logo512.png                 |   Bin [31m0[m -> [32m9664[m bytes
+ public/manifest.json               |    25 [32m+[m
+ public/robots.txt                  |     3 [32m+[m
+ src/App.css                        |     0
+ src/App.js                         |    45 [32m+[m
+ src/App.test.js                    |     8 [32m+[m
+ src/component/HelpCenter.js        |   268 [32m+[m
+ src/component/Home.js              |   321 [32m+[m
+ src/component/WawrideCardDetail.js |   166 [32m+[m
+ src/component/WawrideCardPage.js   |   176 [32m+[m
+ src/component/WelcomeWawride.js    |   133 [32m+[m
+ src/component/globalIndex.css      |    21 [32m+[m
+ src/component/shared/Footer.js     |    78 [32m+[m
+ src/component/shared/Nav.css       |   135 [32m+[m
+ src/component/shared/Nav.js        |    92 [32m+[m
+ src/component/shared/Navbar.js     |    44 [32m+[m
+ src/index.css                      |     0
+ src/index.js                       |    17 [32m+[m
+ src/logo.svg                       |     1 [32m+[m
+ src/reportWebVitals.js             |    13 [32m+[m
+ src/setupTests.js                  |     5 [32m+[m
+ 28 files changed, 31377 insertions(+)
