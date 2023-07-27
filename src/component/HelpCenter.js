@@ -11,10 +11,10 @@ const HelpCenter = () => {
 							<h2 className="text-center text-org">Help Centre</h2>
 							<p className="text-center">How can we help you today ?</p>
 							<div className="d-flex justify-content-center gap-5">
-								<div className="row p-2">
+								<div className="row help-centre-cards-row p-2">
 									<div className="col-md-4">
 										<div className="card help-centre-cards">
-											<img src="https://cdn-icons-png.flaticon.com/256/7630/7630286.png" className="help-centre-cards-img"
+											<img src="./Image/call.png" className="help-centre-cards-img"
 												alt="section1-card" />
 											<div className="">
 												<p className="text-center">Call us</p>
@@ -23,7 +23,7 @@ const HelpCenter = () => {
 									</div>
 									<div className="col-md-4">
 										<div className="card help-centre-cards">
-											<img src="https://cdn-icons-png.flaticon.com/256/7630/7630286.png" className="help-centre-cards-img"
+											<img src="./Image/mail.png" className="help-centre-cards-img"
 												alt="section1-card" />
 											<div className="">
 												<p className="text-center">Get Support</p>
@@ -32,7 +32,7 @@ const HelpCenter = () => {
 									</div>
 									<div className="col-md-4">
 										<div className="card help-centre-cards">
-											<img src="https://cdn-icons-png.flaticon.com/256/7630/7630286.png" className="help-centre-cards-img"
+											<img src="./Image/blog.png" className="help-centre-cards-img"
 												alt="section1-card" />
 											<div className="">
 												<p className="text-center">Reed the blogs</p>
@@ -198,18 +198,17 @@ const HelpCenter = () => {
 								</div>
 							</div>
 							<div className="">
-								<h5>
+								<h6>
 									Can't find what you are looking for ? Fill in the following form, our customer care representative will
 									get in touch with
 									you within next 2 working days.
-								</h5>
-								<a href="*" className='text-blk'><b>Contact
-								us</b></a>
-								<h5>
+								</h6>
+								<h5><a href="*" className='text-blk'><b>Contact us</b></a></h5>
+								<h6>
 									We are happy to answer any question you have or provide you with an estimate. Just send a message in the
 									form below
 									with any questions you have.
-								</h5>
+								</h6>
 							</div>
 							<div className="row">
 								<div className="col-md-6">
@@ -224,34 +223,48 @@ const HelpCenter = () => {
 											<input type="email" className="form-control input-color" placeholder="Subject" />
 										</div>
 										<div className="mb-3">
-											<textarea className="form-control input-color"  rows="4" placeholder='Your Message'></textarea>
+											<textarea className="form-control input-color" rows="4" placeholder='Your Message'></textarea>
 										</div>
-										<button type="submit" className="btn btn-primary btn-color">Submit</button>
+										<button type="submit" className="btn btn-primary btn-org">Submit</button>
 									</form>
-
 								</div>
 								<div className="col-md-6 text-center mt-5">
 									<div className=" border-b-org">
 										<h5><b>Email</b></h5>
 										<p>info@wawrides.com</p>
-										<hr className='hr-line-org'/>
+										<hr className='hr-line-org' />
 									</div>
 									<div className=" border-b-org">
 										<h5><b>Phone</b></h5>
 										<p>+91-9999999999</p>
-										<hr className='hr-line-org'/>
+										<hr className='hr-line-org' />
 									</div>
 									<div className=" border-b-org">
 										<h5><b>On the web</b></h5>
-										<h1>
-											<i className="fa-brands fa-linkedin-in icocs"></i> 
+										<p>
+											<i className="fa-brands fa-linkedin-in icocs"></i>
 											<i className="fa-brands fa-facebook icocs"></i>
 											<i className="fa-brands fa-twitter icocs"></i>
 											<i className="fa-brands fa-instagram icocs"></i>
-										</h1>
-										<hr className='hr-line-org'/>
+										</p>
+										<hr className='hr-line-org' />
 									</div>
-
+								</div>
+							</div>
+							<div className="container-section7">
+								<div className="row m-0">
+									<div className="col-md-4">
+										<div className="p-5">
+											<h2>UPGRADE YOUR LIFESTYLE!</h2>
+											<p>By only paying 8.33% to buy
+												your DREAM CAR, YACHT,
+												PRIVATE PLANE now.
+											</p>
+										</div>
+									</div>
+									<div className="col-md-8">
+										<img src="https://cdn.pixabay.com/photo/2017/09/04/00/08/youtube-2712573_640.png" alt="card-img-top" className="section7-card" />
+									</div>
 								</div>
 							</div>
 

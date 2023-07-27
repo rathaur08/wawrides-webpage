@@ -1,16 +1,12 @@
-/* body{
-    background: rgb(228, 230, 225);
-} */
-
 /* NavBar CSS */
 .nav-linkbar {
     padding: 0.5rem 2rem;
-    color: rgb(221, 149, 15);
+    color: #f79256;
     font-weight: 500;
 }
 
 .nav-linkbar:hover {
-    color: orange;
+    color: #f79256;
 }
 
 .nav-linkbar:active {
@@ -36,8 +32,14 @@
 }
 
 .section2-cards {
-    border: 1px solid orange;
+    border: 1px solid #f79256;
     padding: 5px;
+    max-width: 11rem;
+}
+
+.section2-card-img {
+    text-align: -webkit-center;
+    margin-bottom: 5px;
 }
 
 .section2-img {
@@ -47,14 +49,13 @@
 .section3-card-main {
     width: 18rem;
     align-items: center;
-    border-bottom: 3px solid orange;
-    border-top: 3px solid orange;
+    border-bottom: 3px solid #f79256;
+    border-top: 3px solid #f79256;
 }
 
-.section3-img {
-    height: 90px;
-    width: 70px;
-
+.section3-imgs {
+    width: 250px;
+    height: 150px;
 }
 
 .container-section4 {
@@ -68,7 +69,7 @@
 
 .btn-more {
     margin-top: 20px;
-    background-color: orange;
+    background-color: #f79256;
     border-radius: 19px;
     color: white;
 }
@@ -98,38 +99,51 @@
 }
 
 .section7-card {
-    width: 500px;
-    height: 350px;
+    width: 100%;
+    height: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
 }
 
 .section8-img {
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    width: 12rem;
 }
 
 .container-section9 {
-    background: orange;
+    background: #f79256;
     padding: 15px 20px;
 
 }
 
 .btn-form {
-    border-left: 3px solid orange;
+    border-left: 3px solid #f79256;
+    border-radius: 24px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
 
-.input-group {
+.footer-input-group {
     border: 1px solid rgb(12, 12, 65);
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
-  /* Footer CSS */
-  .footer{
+.input-text {
+    border-radius: 24px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+/* Footer CSS */
+.footer {
     background: rgb(9, 34, 119);
     color: white;
+}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 750px) {
+    .footerrow {
+        text-align: center;
+    }
 }
