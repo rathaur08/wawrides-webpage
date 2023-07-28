@@ -1,9 +1,9 @@
 import React from 'react'
 
 const navbar = () => {
-  return (
-    <div>
-         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    return (
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -37,8 +37,8 @@ const navbar = () => {
                     </div>
                 </div>
             </nav>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default navbar

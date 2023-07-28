@@ -35,7 +35,7 @@ const App = () => {
 
         <Routes>
           {/* Wawride HOME Page 1 */}  {/* ⭐⭐PAGE⭐DONE⭐⭐ */}
-          <Route path='/' element={<Home />} /> 
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<div><h1> This is about Page</h1></div>} />
           <Route path='/login' element={<div><h1> This is login Page</h1></div>} />
           <Route path='/signup' element={<div><h1> This is SIGNUP Page</h1></div>} />
